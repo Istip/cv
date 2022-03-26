@@ -1,7 +1,6 @@
-import React from 'react';
 import { Text, Center, tokens } from '../UI';
 import { DrawerBody, DrawerContent, DrawerImage, Title } from './Drawer.styles';
-import { DrawerContact } from './';
+import { DrawerContact, DrawerLanguages, DrawerPersonalInformation } from './';
 
 const Drawer = () => {
   return (
@@ -32,10 +31,17 @@ const Drawer = () => {
       </DrawerContent>
 
       <Title>
-        <Text variant="medium16">CONTACT</Text>
+        <Text variant="medium16">PERSONAL INFORMATION</Text>
       </Title>
       <DrawerContent>
-        <DrawerContact />
+        <DrawerPersonalInformation />
+      </DrawerContent>
+
+      <Title>
+        <Text variant="medium16">LANGUAGES</Text>
+      </Title>
+      <DrawerContent>
+        <DrawerLanguages />
       </DrawerContent>
     </DrawerBody>
   );

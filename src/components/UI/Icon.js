@@ -2,7 +2,17 @@ import React from 'react';
 import { Center } from '.';
 
 // all the project icons imported here
-import { Facebook, Home, Instagram, Mail, Phone } from './icons';
+import {
+  Facebook,
+  Flag,
+  Home,
+  Hospital,
+  Instagram,
+  License,
+  Mail,
+  Phone,
+  User,
+} from './icons';
 
 const Icon = (props) => {
   const icons = {
@@ -11,6 +21,10 @@ const Icon = (props) => {
     mail: <Mail {...props} />,
     facebook: <Facebook {...props} />,
     instagram: <Instagram {...props} />,
+    hospital: <Hospital {...props} />,
+    user: <User {...props} />,
+    flag: <Flag {...props} />,
+    license: <License {...props} />,
   };
 
   return (

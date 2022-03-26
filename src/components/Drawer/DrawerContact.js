@@ -1,4 +1,3 @@
-import React from 'react';
 import { contacts } from '../../data/contactInfo';
 import { Description } from '../UI';
 
