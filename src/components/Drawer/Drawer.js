@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text, Center, tokens } from '../UI';
-import { DrawerBody, DrawerImage, Title } from './Drawer.styles';
+import { DrawerBody, DrawerContent, DrawerImage, Title } from './Drawer.styles';
 import { DrawerContact } from './';
 
 const Drawer = () => {
@@ -27,7 +27,16 @@ const Drawer = () => {
       <Title>
         <Text variant="medium16">CONTACT</Text>
       </Title>
-      <DrawerContact />
+      <DrawerContent>
+        <DrawerContact />
+      </DrawerContent>
+
+      <Title>
+        <Text variant="medium16">CONTACT</Text>
+      </Title>
+      <DrawerContent>
+        <DrawerContact />
+      </DrawerContent>
     </DrawerBody>
   );
 };

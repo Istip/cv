@@ -4,8 +4,8 @@ import { tokens } from '../UI';
 
 export const DrawerBody = styled.div`
   background: ${tokens.colors.primaryWhite};
-  width: 200px;
-  height: 100vh;
+  width: 250px;
+  min-height: 100vh;
 `;
 
 export const DrawerImage = styled.div`
@@ -23,4 +23,8 @@ export const Title = styled.div`
   padding: 5px;
   background: ${tokens.colors.primary};
   color: ${tokens.colors.white};
+`;
+
+export const DrawerContent = styled.div`
+  padding: 15px;
 `;

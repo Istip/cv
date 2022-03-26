@@ -1,12 +1,17 @@
 import React from 'react';
+import { contacts } from '../../data/contactInfo';
 import { Description } from '../UI';
 
 const DrawerContact = () => {
   return (
     <>
-      <Description text="RO" content="sziasztok" />
-      <Description text="RO" content="sziasztok" />
-      <Description text="RO" content="sziasztok" />
+      {contacts.map((contact) => (
+        <Description
+          key={contact.key}
+          icon={contact.icon}
+          content={contact.content}
+        />
+      ))}
     </>
   );
 };

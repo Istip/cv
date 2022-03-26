@@ -7,9 +7,10 @@ const Description = ({ icon, text, content }) => {
   return (
     <Wrapper>
       <Circle>
-        {icon && <Icon icon="home" size={16} />}
+        {icon && <Icon icon={icon} size={16} />}
         {text && <Text variant="black10">{text}</Text>}
       </Circle>
+
       <Text tag="div" variant="regular12">
         {content}
       </Text>

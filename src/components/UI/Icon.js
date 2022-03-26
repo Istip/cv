@@ -2,11 +2,15 @@ import React from 'react';
 import { Center } from '.';
 
 // all the project icons imported here
-import { Home } from './icons';
+import { Facebook, Home, Instagram, Mail, Phone } from './icons';
 
 const Icon = (props) => {
   const icons = {
     home: <Home {...props} />,
+    phone: <Phone {...props} />,
+    mail: <Mail {...props} />,
+    facebook: <Facebook {...props} />,
+    instagram: <Instagram {...props} />,
   };
 
   return (
