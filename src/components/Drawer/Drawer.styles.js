@@ -4,7 +4,8 @@ import { tokens } from '../UI';
 
 export const DrawerBody = styled.div`
   background: ${tokens.colors.primaryWhite};
-  width: 250px;
+  min-width: 250px;
+  max-width: 250px;
   min-height: 100vh;
 `;
 
