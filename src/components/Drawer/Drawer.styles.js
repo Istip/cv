@@ -30,3 +30,19 @@ export const Title = styled.div`
 export const DrawerContent = styled.div`
   padding: 15px;
 `;
+
+export const Content = styled.div`
+  opacity: 1;
+  cursor: pointer;
+  transition: 200ms ease;
+`;
+
+export const ContentWrapper = styled.div`
+  &:hover > div {
+    opacity: 0.5;
+  }
+
+  &:hover > div:hover {
+    opacity: 1;
+  }
+`;

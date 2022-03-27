@@ -14,4 +14,13 @@ export const BadgeContainer = styled.div`
   display: flex;
   gap: 4px;
   flex-wrap: wrap;
+  cursor: pointer;
+
+  &:hover > div {
+    opacity: 0.5;
+  }
+
+  &:hover > div:hover {
+    opacity: 1;
+  }
 `;

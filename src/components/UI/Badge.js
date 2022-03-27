@@ -18,6 +18,10 @@ const BadgeWrapper = styled.div`
   padding: 2px 10px;
   border-radius: 12px;
   background: ${(props) => `#${props.bg}`};
+
+  opacity: 1;
+  cursor: pointer;
+  transition: 200ms ease;
 `;
 
 export default Badge;

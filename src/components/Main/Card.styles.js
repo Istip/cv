@@ -15,4 +15,11 @@ export const CardYear = styled.div`
 export const CardContent = styled.div`
   background: ${tokens.colors.primaryWhite};
   padding: 10px 20px;
+  border: 1px solid ${tokens.colors.primaryWhite};
+  cursor: pointer;
+  transition: 200ms ease;
+
+  &:hover {
+    border: 1px solid ${tokens.colors.primaryLight2};
+  }
 `;
