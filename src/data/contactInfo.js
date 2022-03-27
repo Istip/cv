@@ -15,6 +15,6 @@ export const personalInformations = [
 
 export const languages = [
   { key: 1, text: 'HU', content: 'HUNGARIAN: native' },
-  { key: 2, text: 'RO', content: 'ENGLISH: advanced' },
-  { key: 3, text: 'EN', content: 'ROMANIAN: advanced' },
+  { key: 2, text: 'EN', content: 'ENGLISH: advanced' },
+  { key: 3, text: 'RO', content: 'ROMANIAN: advanced' },
 ];
