@@ -1,15 +1,11 @@
-import { contacts } from '../../data/contactInfo';
+import { data } from '../../data/personal';
 import { Description } from '../UI';
 
 const DrawerContact = () => {
   return (
     <>
-      {contacts.map((contact) => (
-        <Description
-          key={contact.key}
-          icon={contact.icon}
-          content={contact.content}
-        />
+      {data.map((item) => (
+        <Description key={item.key} icon={item.icon} content={item.content} />
       ))}
     </>
   );

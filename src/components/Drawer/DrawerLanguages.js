@@ -1,4 +1,4 @@
-import { languages } from '../../data/contactInfo';
+import { languages } from '../../data/personal';
 import { Description } from '../UI';
 
 const DrawerLanguages = () => {

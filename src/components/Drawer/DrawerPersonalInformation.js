@@ -1,4 +1,4 @@
-import { personalInformations } from '../../data/contactInfo';
+import { personalInformations } from '../../data/personal';
 import { Description } from '../UI';
 
 const DrawerPersonalInformation = () => {
