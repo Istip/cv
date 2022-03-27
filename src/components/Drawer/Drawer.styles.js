@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+// This is actually a portrait of J Dilla
 import avatar from '../../assets/avatar.png';
 import { tokens } from '../UI';
 

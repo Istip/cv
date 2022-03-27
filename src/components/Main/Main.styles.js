@@ -9,3 +9,9 @@ export const BigTitleWrapper = styled.div`
 `;
 
 export const ContentBox = styled.div``;
+
+export const BadgeContainer = styled.div`
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+`;
