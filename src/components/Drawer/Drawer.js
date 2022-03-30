@@ -63,19 +63,6 @@ const Drawer = () => {
 
         <Content>
           <Title>
-            <Text variant="medium16">OTHER COMPENTENCES</Text>
-          </Title>
-          <DrawerContent>
-            <Text tag="div" variant="regular12" lineHeight="1.5">
-              Good communication, Adaptability, Creativity, Quick learner, Team
-              player, Good organizational skills, Precision, Optimism,
-              Reliability, Attention, Trustworthiness, Sincerity, Funny.
-            </Text>
-          </DrawerContent>
-        </Content>
-
-        <Content>
-          <Title>
             <Text variant="medium16">HOBBIES</Text>
           </Title>
           <DrawerContent>
