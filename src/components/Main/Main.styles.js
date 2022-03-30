@@ -28,3 +28,16 @@ export const BadgeContainer = styled.div`
     opacity: 1;
   }
 `;
+
+export const HeaderWrapper = styled.div`
+  text-align: center;
+  display: none;
+  margin-bottom: 40px;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+`;

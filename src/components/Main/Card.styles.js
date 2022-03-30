@@ -29,6 +29,7 @@ export const CardContent = styled.div`
   cursor: pointer;
   transition: 200ms ease;
   min-width: 300px;
+  border-radius: 4px;
 
   &:hover {
     border: 1px solid ${tokens.colors.primaryLight2};

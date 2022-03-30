@@ -1,5 +1,5 @@
-import { BigTitle, Card } from './';
-import { BadgeContainer, ContentBox } from './Main.styles';
+import { BigTitle, Card, Header } from './';
+import { BadgeContainer, ContentBox, HeaderWrapper } from './Main.styles';
 import { education, workExperience } from '../../data/experience';
 import { badges } from '../../data/badges';
 import { Badge } from '../UI';
@@ -7,6 +7,10 @@ import { Badge } from '../UI';
 const Main = () => {
   return (
     <>
+      <HeaderWrapper>
+        <Header />
+      </HeaderWrapper>
+
       <ContentBox>
         <BigTitle>Education</BigTitle>
         {education.map((item) => (
