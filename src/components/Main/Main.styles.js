@@ -6,6 +6,10 @@ export const BigTitleWrapper = styled.div`
   width: 100%;
   border-bottom: 1px solid ${tokens.colors.primaryLight1};
   margin-bottom: 20px;
+
+  &:not(:first-child) {
+    margin-top: 40px;
+  }
 `;
 
 export const ContentBox = styled.div``;
