@@ -7,6 +7,11 @@ export const DrawerBody = styled.div`
   min-width: 250px;
   max-width: 250px;
   min-height: 100vh;
+  display: block;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const DrawerImage = styled.div`
