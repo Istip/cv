@@ -1,6 +1,5 @@
 import styled from 'styled-components';
-// This is actually a portrait of J Dilla
-import avatar from '../../assets/avatar.png';
+import avatar from '../../assets/avatar.jpg';
 import { tokens } from '../UI';
 
 export const DrawerBody = styled.div`
@@ -12,9 +11,10 @@ export const DrawerBody = styled.div`
 
 export const DrawerImage = styled.div`
   width: 100%;
-  height: 200px;
+  height: 300px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   background-image: url(${avatar});
 `;
 
