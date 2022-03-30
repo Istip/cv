@@ -1,14 +1,19 @@
 import { BigTitle, Card, Header } from './';
-import { BadgeContainer, ContentBox, HeaderWrapper } from './Main.styles';
+import {
+  BadgeContainer,
+  ContentBox,
+  HeaderWrapper,
+  MainContainer,
+} from './Main.styles';
 import { education, workExperience } from '../../data/experience';
 import { badges } from '../../data/badges';
 import { Badge } from '../UI';
 
-const Main = () => {
+const Main = ({ setShow }) => {
   return (
-    <>
+    <MainContainer>
       <HeaderWrapper>
-        <Header />
+        <Header setShow={setShow} />
       </HeaderWrapper>
 
       <ContentBox>
@@ -34,7 +39,7 @@ const Main = () => {
           ))}
         </BadgeContainer>
       </ContentBox>
-    </>
+    </MainContainer>
   );
 };
 

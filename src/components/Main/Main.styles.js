@@ -41,3 +41,8 @@ export const HeaderWrapper = styled.div`
     justify-content: center;
   }
 `;
+
+export const MainContainer = styled.div`
+  padding: 20px;
+  max-width: 650px;
+`;

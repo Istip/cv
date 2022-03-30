@@ -1,13 +1,17 @@
-import { AppContainer, MainWrapper } from './App.styles';
+import { useState } from 'react';
+import { AppContainer, MainBackdrop, MainWrapper } from './App.styles';
 import { Drawer } from './components/Drawer';
 import { Main } from './components/Main';
 
 function App() {
+  const [show, setShow] = useState(true);
+
   return (
     <AppContainer>
-      <Drawer />
+      <Drawer show={show} />
       <MainWrapper>
-        <Main />
+        <MainBackdrop show={show} onClick={() => setShow(!show)} />
+        <Main setShow={setShow} />
       </MainWrapper>
     </AppContainer>
   );

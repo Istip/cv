@@ -6,11 +6,14 @@ export const DrawerBody = styled.div`
   background: ${tokens.colors.primaryWhite};
   min-width: 250px;
   max-width: 250px;
-  min-height: 100vh;
-  display: block;
+  z-index: 3;
 
   @media (max-width: 768px) {
-    display: none;
+    position: absolute;
+    left: ${(props) => (props.show ? 0 : '-250px')};
+    top: 0;
+    bottom: 0;
+    transition: 250ms ease;
   }
 `;
 

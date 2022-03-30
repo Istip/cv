@@ -1,13 +1,20 @@
-import { Text, tokens } from '../UI';
+import { Icon, Text, tokens } from '../UI';
+import { Button, ButtonWrapper } from './Header.styles';
 
-const Header = () => {
+const Header = ({ setShow }) => {
   return (
     <>
-      <Text tag="h1" variant="h1" color={tokens.colors.primaryDark2}>
-        PASZTOR ISTVAN
-      </Text>
-      <Text tag="h3" variant="h3" color={tokens.colors.primaryLight2}>
+      <ButtonWrapper>
+        <Button onClick={() => setShow((prevState) => !prevState)}>
+          <Icon icon="user" color={tokens.colors.primaryWhite} />
+        </Button>
+      </ButtonWrapper>
+
+      <Text tag="h3" variant="h3" color={tokens.colors.primaryDark1}>
         Curriculum Vitae
+      </Text>
+      <Text tag="h1" variant="h1" color={tokens.colors.primaryDark2}>
+        PÁSZTOR ISTVÁN
       </Text>
     </>
   );

@@ -9,9 +9,9 @@ import {
 } from './Drawer.styles';
 import { DrawerContact, DrawerLanguages, DrawerPersonalInformation } from './';
 
-const Drawer = () => {
+const Drawer = ({ show }) => {
   return (
-    <DrawerBody>
+    <DrawerBody show={show}>
       <DrawerImage />
       <Center margin="20px 0">
         <Text variant="black18" color={tokens.colors.primary}>
