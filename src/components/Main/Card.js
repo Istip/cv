@@ -1,4 +1,4 @@
-import { Text, tokens } from '../UI';
+import { Anchor, Text, tokens } from '../UI';
 import { CardContent, CardWrapper, CardYear } from './Card.styles';
 
 const Card = ({ item }) => {
@@ -37,6 +37,10 @@ const Card = ({ item }) => {
         >
           {item.content}
         </Text>
+
+        <Anchor href={item.website} target="_blank" title={item.website}>
+          Visit Website
+        </Anchor>
       </CardContent>
     </CardWrapper>
   );

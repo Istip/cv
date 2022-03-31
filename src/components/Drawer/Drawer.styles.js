@@ -6,7 +6,6 @@ export const DrawerBody = styled.div`
   background: ${tokens.colors.primaryWhite};
   min-width: 250px;
   max-width: 250px;
-  z-index: 3;
 
   @media (max-width: 768px) {
     position: absolute;
@@ -14,6 +13,7 @@ export const DrawerBody = styled.div`
     top: 0;
     bottom: 0;
     transition: 250ms ease;
+    z-index: 4;
   }
 `;
 

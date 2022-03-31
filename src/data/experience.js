@@ -5,6 +5,7 @@ export const education = [
     title: 'Mathematics and Informatics',
     subtitle: 'College of Baczkamadarasi Kis Gergely',
     place: 'Odorheiu Secuiesc (Romania)',
+    website: 'http://refkol.ro/',
 
     accentTitle: 'PRINCIPAL SUBJECTS:',
     content:
@@ -16,6 +17,7 @@ export const education = [
     title: 'Economics and Finance – Marketing',
     subtitle: 'Faculty of Economics and Business Administration “Babes-Bolyai”',
     place: 'Cluj-Napoca (Romania)',
+    website: 'https://econ.ubbcluj.ro/',
 
     accentTitle: 'PRINCIPAL SUBJECTS:',
     content:
@@ -29,6 +31,7 @@ export const workExperience = [
     year: '2013-2014',
     title: 'Erste BCR, bank branch',
     subtitle: 'FINANTIAL ADVISOR',
+    website: 'https://www.bcrlocuinte.ro/ro/bpl',
 
     accentTitle: 'TASKS:',
     content:
@@ -39,6 +42,7 @@ export const workExperience = [
     year: '2015',
     title: 'Digital3 TV & Star Radio Station',
     subtitle: 'MARKETING MANAGER',
+    website: 'https://myonlineradio.hu/star-radio',
 
     accentTitle: 'TASKS:',
     content:
@@ -49,6 +53,7 @@ export const workExperience = [
     year: '2017 - 2021',
     title: 'ODOREST discount department',
     subtitle: 'COMPUTER OPERATOR',
+    website: 'https://odorest.ro/',
 
     accentTitle: 'TASKS:',
     content:
@@ -58,7 +63,8 @@ export const workExperience = [
     key: 4,
     year: '2021 - ...',
     title: 'minic STUDIO',
-    subtitle: 'DEVELOPER',
+    subtitle: 'WEB DEVELOPER',
+    website: 'https://minic.ro/',
 
     accentTitle: 'TASKS:',
     content:
