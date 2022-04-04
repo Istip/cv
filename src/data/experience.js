@@ -30,7 +30,7 @@ export const workExperience = [
     key: 1,
     year: '2013-2014',
     title: 'Erste BCR, bank branch',
-    subtitle: 'FINANTIAL ADVISOR',
+    subtitle: 'FINANCIAL ADVISOR',
     website: 'https://www.bcrlocuinte.ro/ro/bpl',
 
     accentTitle: 'TASKS:',
