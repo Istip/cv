@@ -1,5 +1,6 @@
 import { Text, Center, tokens } from '../UI';
 import {
+  CloseButton,
   Content,
   ContentWrapper,
   DrawerBody,
@@ -9,9 +10,13 @@ import {
 } from './Drawer.styles';
 import { DrawerContact, DrawerLanguages, DrawerPersonalInformation } from './';
 
-const Drawer = ({ show }) => {
+const Drawer = ({ show, setShow }) => {
   return (
     <DrawerBody show={show}>
+      <CloseButton onClick={() => setShow(!show)}>
+        <Text variant="medium10">Close</Text>
+      </CloseButton>
+
       <DrawerImage />
       <Center margin="20px 0">
         <Text variant="black18" color={tokens.colors.primary}>

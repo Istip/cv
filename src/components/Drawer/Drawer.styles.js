@@ -17,6 +17,26 @@ export const DrawerBody = styled.div`
   }
 `;
 
+export const CloseButton = styled.button`
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 190px;
+  top: 8px;
+  outline: 0;
+  border: 0;
+  background: ${tokens.colors.primaryWhite};
+  border-radius: 10px;
+  padding: 4px 12px;
+  color: ${tokens.colors.primary};
+  cursor: pointer;
+
+  @media (min-width: 768px) {
+    visibility: hidden;
+  }
+`;
+
 export const DrawerImage = styled.div`
   width: 100%;
   height: 300px;

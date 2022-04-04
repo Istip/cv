@@ -34,4 +34,8 @@ export const CardContent = styled.div`
   &:hover {
     border: 1px solid ${tokens.colors.primaryLight2};
   }
+
+  @media (max-width: 768px) {
+    padding: 10px;
+  }
 `;

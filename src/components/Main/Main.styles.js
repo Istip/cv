@@ -45,4 +45,8 @@ export const HeaderWrapper = styled.div`
 export const MainContainer = styled.div`
   padding: 20px;
   max-width: 650px;
+
+  @media (max-width: 768px) {
+    padding: 10px;
+  }
 `;

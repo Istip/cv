@@ -8,7 +8,7 @@ function App() {
 
   return (
     <AppContainer>
-      <Drawer show={show} />
+      <Drawer show={show} setShow={setShow} />
       <MainWrapper>
         <MainBackdrop show={show} onClick={() => setShow(!show)} />
         <Main setShow={setShow} />

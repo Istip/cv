@@ -6,7 +6,10 @@ const Header = ({ setShow }) => {
     <>
       <ButtonWrapper>
         <Button onClick={() => setShow((prevState) => !prevState)}>
-          <Icon icon="user" color={tokens.colors.primaryWhite} />
+          <Icon icon="user" size={18} color={tokens.colors.primaryWhite} />
+          <Text color={tokens.colors.white} variant="medium12">
+            Profile
+          </Text>
         </Button>
       </ButtonWrapper>
 
