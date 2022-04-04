@@ -27,7 +27,7 @@ export const CloseButton = styled.button`
   outline: 0;
   border: 0;
   background: ${tokens.colors.primaryWhite};
-  border-radius: 10px;
+  border-radius: 4px;
   padding: 4px 12px;
   color: ${tokens.colors.primary};
   cursor: pointer;
