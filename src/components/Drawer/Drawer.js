@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Text, Center, tokens } from '../UI';
 import {
   CloseButton,
@@ -11,6 +12,15 @@ import {
 import { DrawerContact, DrawerLanguages, DrawerPersonalInformation } from './';
 
 const Drawer = ({ show, setShow }) => {
+  // Disable background scrolling when modal is opened
+  useEffect(() => {
+    if (show) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+  }, [show]);
+
   return (
     <DrawerBody show={show}>
       <CloseButton onClick={() => setShow(!show)}>

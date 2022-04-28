@@ -8,12 +8,15 @@ export const DrawerBody = styled.div`
   max-width: 250px;
 
   @media (max-width: 768px) {
-    position: absolute;
+    position: fixed;
     left: ${(props) => (props.show ? 0 : '-250px')};
     top: 0;
     bottom: 0;
     transition: 250ms ease;
     z-index: 4;
+
+    overflow: scroll;
+    height: 100vh;
   }
 `;
 

@@ -17,13 +17,13 @@ const Main = ({ setShow }) => {
       </HeaderWrapper>
 
       <ContentBox>
-        <BigTitle>Education</BigTitle>
-        {education.map((item) => (
+        <BigTitle>Work Experience</BigTitle>
+        {workExperience.map((item) => (
           <Card key={item.key} item={item} />
         ))}
 
-        <BigTitle>Work Experience</BigTitle>
-        {workExperience.map((item) => (
+        <BigTitle>Education</BigTitle>
+        {education.map((item) => (
           <Card key={item.key} item={item} />
         ))}
 
