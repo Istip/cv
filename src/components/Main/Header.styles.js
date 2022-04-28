@@ -24,6 +24,6 @@ export const Button = styled.button`
   z-index: 4;
 
   &:hover {
-    opacity: 0.5;
+    background: ${tokens.colors.primary};
   }
 `;
