@@ -14,9 +14,15 @@ export const DrawerBody = styled.div`
     bottom: 0;
     transition: 250ms ease;
     z-index: 4;
-
     overflow: scroll;
     height: 100vh;
+
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
 `;
 

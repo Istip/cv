@@ -24,7 +24,7 @@ const tokens = {
 
 export const fonts = {
   h1: {
-    fontSize: '3rem',
+    fontSize: '2.8rem',
     letterSpacing: '-0.7px',
     fontWeight: tokens.fontSize[100],
   },

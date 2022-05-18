@@ -27,3 +27,11 @@ export const Button = styled.button`
     background: ${tokens.colors.primary};
   }
 `;
+
+export const TitleWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+`;

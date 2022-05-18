@@ -1,5 +1,5 @@
 import { Icon, Text, tokens } from '../UI';
-import { Button, ButtonWrapper } from './Header.styles';
+import { Button, ButtonWrapper, TitleWrapper } from './Header.styles';
 
 const Header = ({ setShow }) => {
   return (
@@ -13,12 +13,14 @@ const Header = ({ setShow }) => {
         </Button>
       </ButtonWrapper>
 
-      <Text tag="h3" variant="h3" color={tokens.colors.primaryDark1}>
-        Curriculum Vitae
-      </Text>
-      <Text tag="h1" variant="h1" color={tokens.colors.primaryDark2}>
-        PÁSZTOR ISTVÁN
-      </Text>
+      <TitleWrapper>
+        <Text tag="h3" variant="h3" color={tokens.colors.primaryDark1}>
+          Curriculum Vitae
+        </Text>
+        <Text tag="h1" variant="h1" color={tokens.colors.primaryDark2}>
+          PÁSZTOR ISTVÁN
+        </Text>
+      </TitleWrapper>
     </>
   );
 };
