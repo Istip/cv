@@ -4,7 +4,7 @@ import { Drawer } from './components/Drawer';
 import { Main } from './components/Main';
 
 function App() {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
 
   return (
     <AppContainer>
