@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import tokens from './tokens';
 import { Icon, Text } from './';
 
-const Description = ({ icon, text, content }) => {
+const Description = ({ icon, text, content, link }) => {
   return (
     <Wrapper>
       <Circle>
@@ -11,7 +11,13 @@ const Description = ({ icon, text, content }) => {
       </Circle>
 
       <Text tag="div" variant="regular12">
-        {content}
+        {link ? (
+          <Anchor href={link} target="_blank">
+            {content}
+          </Anchor>
+        ) : (
+          <>{content}</>
+        )}
       </Text>
     </Wrapper>
   );
@@ -33,6 +39,16 @@ const Circle = styled.div`
   align-items: center;
   justify-content: center;
   color: ${tokens.colors.white};
+`;
+
+const Anchor = styled.a`
+  all: unset;
+  transition: 250ms ease;
+
+  &:hover {
+    text-decoration: underline;
+    color: ${tokens.colors.primary};
+  }
 `;
 
 export default Description;

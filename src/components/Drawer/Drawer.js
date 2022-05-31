@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
-import { Text, Center, tokens } from '../UI';
+import { Text, Center, tokens, Icon } from '../UI';
 import {
+  Button,
   CloseButton,
   Content,
   ContentWrapper,
@@ -89,6 +90,17 @@ const Drawer = ({ show, setShow }) => {
             </Text>
           </DrawerContent>
         </Content>
+
+        <Button>
+          <Text variant="medium14" color={tokens.colors.white}>
+            <Center
+              as="a"
+              href="https://drive.google.com/file/d/1sRK-Pq45zVdOfa8Jpc3HZUbc5UXZySxr/view?usp=sharing"
+            >
+              <Icon icon="download" size={16} /> DOWNLOAD MY CV
+            </Center>
+          </Text>
+        </Button>
       </ContentWrapper>
     </DrawerBody>
   );

@@ -11,6 +11,8 @@ import {
   Mail,
   Phone,
   User,
+  Github,
+  Download,
 } from './icons';
 
 const Icon = (props) => {
@@ -24,6 +26,8 @@ const Icon = (props) => {
     user: <User {...props} />,
     flag: <Flag {...props} />,
     license: <License {...props} />,
+    github: <Github {...props} />,
+    download: <Download {...props} />,
   };
 
   return (

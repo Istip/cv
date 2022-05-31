@@ -7,6 +7,8 @@ import Hospital from './hospital.icon';
 import User from './user.icon';
 import Flag from './flag.icon';
 import License from './license.icon';
+import Github from './github.icon';
+import Download from './download.icon';
 
 export {
   Home,
@@ -18,4 +20,6 @@ export {
   User,
   Flag,
   License,
+  Github,
+  Download,
 };

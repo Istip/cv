@@ -74,12 +74,26 @@ export const Content = styled.div`
   transition: 200ms ease;
 `;
 
-export const ContentWrapper = styled.div`
-  &:hover > div {
-    opacity: 0.5;
+export const ContentWrapper = styled.div``;
+
+export const Button = styled.div`
+  margin: 20px;
+  background: ${tokens.colors.primaryDark1};
+  padding: 8px;
+  border-radius: 4px;
+  text-align: center;
+  transition: 250ms ease;
+  cursor: pointer;
+
+  &:hover {
+    background: ${tokens.colors.primaryDark2};
   }
 
-  &:hover > div:hover {
-    opacity: 1;
+  a {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
   }
 `;
