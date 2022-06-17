@@ -30,6 +30,7 @@ export const CardContent = styled.div`
   transition: 200ms ease;
   min-width: 300px;
   border-radius: 4px;
+  width: 100%;
 
   &:hover {
     border: 1px solid ${tokens.colors.primaryLight2};

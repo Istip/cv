@@ -27,10 +27,17 @@ export const education = [
 
 export const workExperience = [
   {
+    key: 5,
+    year: '2022 - ...',
+    title: 'NTT Data',
+    subtitle: 'DEVELOPER',
+    website: 'https://nttdata.com/',
+  },
+  {
     key: 4,
-    year: '2021 - ...',
+    year: '2021 - 2022',
     title: 'minic STUDIO',
-    subtitle: 'WEB DEVELOPER',
+    subtitle: 'DEVELOPER',
     website: 'https://minic.ro/',
 
     accentTitle: 'TASKS:',
